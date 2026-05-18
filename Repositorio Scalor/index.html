@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Scalor — Escale seu negócio com inteligência</title>
+  <meta name="description" content="Scalor é a plataforma que transforma dados em crescimento real. Automatize, analise e escale seu negócio com precisão." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a href="#" class="logo">
+        <span class="logo-icon">◈</span>
+        <span class="logo-text">Scalor</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#features">Recursos</a></li>
+        <li><a href="#how">Como funciona</a></li>
+        <li><a href="#pricing">Preços</a></li>
+        <li><a href="#testimonials">Depoimentos</a></li>
+      </ul>
+      <div class="nav-cta">
+        <a href="#" class="btn-ghost">Entrar</a>
+        <a href="#" class="btn-primary">Começar grátis</a>
+      </div>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="#features">Recursos</a>
+      <a href="#how">Como funciona</a>
+      <a href="#pricing">Preços</a>
+      <a href="#testimonials">Depoimentos</a>
+      <a href="#" class="btn-primary" style="margin-top:1rem;">Começar grátis</a>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero-bg">
+      <div class="orb orb-1"></div>
+      <div class="orb orb-2"></div>
+      <div class="orb orb-3"></div>
+      <div class="grid-lines"></div>
+    </div>
+    <div class="container hero-content">
+      <div class="badge animate-fade-up">🚀 Novo: Relatórios com IA generativa</div>
+      <h1 class="hero-title animate-fade-up delay-1">
+        Escale seu negócio<br />
+        <span class="gradient-text">com inteligência real</span>
+      </h1>
+      <p class="hero-desc animate-fade-up delay-2">
+        Scalor transforma dados brutos em decisões poderosas. Automatize processos, visualize métricas e acelere seu crescimento — tudo em uma plataforma unificada.
+      </p>
+      <div class="hero-actions animate-fade-up delay-3">
+        <a href="#" class="btn-primary btn-lg" id="hero-cta">Começar gratuitamente</a>
+        <a href="#how" class="btn-outline btn-lg">Ver demonstração ▶</a>
+      </div>
+      <div class="hero-stats animate-fade-up delay-4">
+        <div class="stat">
+          <span class="stat-num" data-target="12000">0</span>
+          <span class="stat-label">Empresas ativas</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-num" data-target="98">0</span><span class="stat-suffix">%</span>
+          <span class="stat-label">Satisfação</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-num" data-target="3">0</span><span class="stat-suffix">x</span>
+          <span class="stat-label">Crescimento médio</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero-mockup animate-fade-up delay-4">
+      <div class="mockup-window">
+        <div class="mockup-bar">
+          <span class="dot red"></span>
+          <span class="dot yellow"></span>
+          <span class="dot green"></span>
+          <span class="mockup-url">app.scalor.io/dashboard</span>
+        </div>
+        <div class="mockup-body">
+          <div class="dash-sidebar">
+            <div class="dash-nav-item active">📊 Dashboard</div>
+            <div class="dash-nav-item">📈 Relatórios</div>
+            <div class="dash-nav-item">⚡ Automações</div>
+            <div class="dash-nav-item">🎯 Metas</div>
+            <div class="dash-nav-item">👥 Equipe</div>
+          </div>
+          <div class="dash-main">
+            <div class="dash-kpi-row">
+              <div class="dash-kpi">
+                <span class="kpi-label">Receita</span>
+                <span class="kpi-val">R$ 284k</span>
+                <span class="kpi-badge up">+18%</span>
+              </div>
+              <div class="dash-kpi">
+                <span class="kpi-label">Usuários</span>
+                <span class="kpi-val">12.4k</span>
+                <span class="kpi-badge up">+32%</span>
+              </div>
+              <div class="dash-kpi">
+                <span class="kpi-label">Conversão</span>
+                <span class="kpi-val">4.7%</span>
+                <span class="kpi-badge up">+0.9%</span>
+              </div>
+            </div>
+            <div class="dash-chart">
+              <div class="chart-label">Crescimento — últimos 7 dias</div>
+              <div class="chart-bars">
+                <div class="bar" style="--h:40%"></div>
+                <div class="bar" style="--h:55%"></div>
+                <div class="bar" style="--h:45%"></div>
+                <div class="bar" style="--h:70%"></div>
+                <div class="bar" style="--h:65%"></div>
+                <div class="bar" style="--h:85%"></div>
+                <div class="bar active" style="--h:95%"></div>
+              </div>
+            </div>
+            <div class="dash-table-header">Atividades recentes</div>
+            <div class="dash-row"><span class="dash-dot green-dot"></span>Nova venda — Plano Pro <span class="dash-time">agora</span></div>
+            <div class="dash-row"><span class="dash-dot blue-dot"></span>Relatório gerado por IA <span class="dash-time">2min</span></div>
+            <div class="dash-row"><span class="dash-dot purple-dot"></span>Meta de março atingida! <span class="dash-time">5min</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- LOGOS -->
+  <section class="logos-section">
+    <div class="container">
+      <p class="logos-label">Empresas que confiam na Scalor</p>
+      <div class="logos-track">
+        <div class="logos-inner">
+          <span class="logo-brand">Nexus</span>
+          <span class="logo-brand">Orbita</span>
+          <span class="logo-brand">Vortex Co.</span>
+          <span class="logo-brand">Pinnacle</span>
+          <span class="logo-brand">Stellar</span>
+          <span class="logo-brand">Apex Labs</span>
+          <span class="logo-brand">Nexus</span>
+          <span class="logo-brand">Orbita</span>
+          <span class="logo-brand">Vortex Co.</span>
+          <span class="logo-brand">Pinnacle</span>
+          <span class="logo-brand">Stellar</span>
+          <span class="logo-brand">Apex Labs</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURES -->
+  <section class="features-section" id="features">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">Recursos</span>
+        <h2 class="section-title">Tudo que você precisa para <span class="gradient-text">crescer mais rápido</span></h2>
+        <p class="section-desc">Uma suite completa de ferramentas projetadas para times que querem resultados reais.</p>
+      </div>
+      <div class="features-grid">
+        <div class="feature-card" id="feat-1">
+          <div class="feature-icon" style="--color: #7c3aed;">📊</div>
+          <h3>Analytics em tempo real</h3>
+          <p>Dashboards interativos que atualizam automaticamente. Tome decisões com dados frescos, não com relatórios de ontem.</p>
+          <div class="feature-tag">Live data</div>
+        </div>
+        <div class="feature-card featured" id="feat-2">
+          <div class="feature-badge">Mais popular</div>
+          <div class="feature-icon" style="--color: #06b6d4;">🤖</div>
+          <h3>IA que trabalha por você</h3>
+          <p>Insights automáticos, previsões de tendências e recomendações personalizadas geradas por inteligência artificial.</p>
+          <div class="feature-tag">Powered by AI</div>
+        </div>
+        <div class="feature-card" id="feat-3">
+          <div class="feature-icon" style="--color: #10b981;">⚡</div>
+          <h3>Automações sem código</h3>
+          <p>Crie fluxos de trabalho poderosos sem escrever uma linha de código. Conecte ferramentas e automatize tarefas repetitivas.</p>
+          <div class="feature-tag">No-code</div>
+        </div>
+        <div class="feature-card" id="feat-4">
+          <div class="feature-icon" style="--color: #f59e0b;">🎯</div>
+          <h3>Gestão de metas (OKRs)</h3>
+          <p>Defina, acompanhe e comunique objetivos para toda a equipe. Mantenha todos alinhados e motivados.</p>
+          <div class="feature-tag">Team alignment</div>
+        </div>
+        <div class="feature-card" id="feat-5">
+          <div class="feature-icon" style="--color: #ec4899;">🔗</div>
+          <h3>+200 integrações</h3>
+          <p>Conecte Scalor ao seu stack existente. Slack, Notion, Shopify, HubSpot e muito mais com um clique.</p>
+          <div class="feature-tag">Plug & play</div>
+        </div>
+        <div class="feature-card" id="feat-6">
+          <div class="feature-icon" style="--color: #3b82f6;">🛡️</div>
+          <h3>Segurança enterprise</h3>
+          <p>Criptografia de ponta a ponta, conformidade com LGPD/GDPR, SSO e controles de acesso granulares.</p>
+          <div class="feature-tag">Enterprise-grade</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- HOW IT WORKS -->
+  <section class="how-section" id="how">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">Como funciona</span>
+        <h2 class="section-title">Configure em <span class="gradient-text">minutos</span>, escale para sempre</h2>
+      </div>
+      <div class="steps">
+        <div class="step" id="step-1">
+          <div class="step-num">01</div>
+          <div class="step-content">
+            <h3>Conecte suas fontes de dados</h3>
+            <p>Importe dados de qualquer lugar: planilhas, CRMs, e-commerces ou APIs. Scalor normaliza tudo automaticamente.</p>
+          </div>
+          <div class="step-line"></div>
+        </div>
+        <div class="step" id="step-2">
+          <div class="step-num">02</div>
+          <div class="step-content">
+            <h3>Personalize seu dashboard</h3>
+            <p>Monte seu painel ideal com arrastar e soltar. Escolha os KPIs que importam para o seu negócio.</p>
+          </div>
+          <div class="step-line"></div>
+        </div>
+        <div class="step" id="step-3">
+          <div class="step-num">03</div>
+          <div class="step-content">
+            <h3>Deixe a IA trabalhar</h3>
+            <p>Receba alertas inteligentes, previsões e relatórios automáticos — enquanto você foca no que importa.</p>
+          </div>
+          <div class="step-line"></div>
+        </div>
+        <div class="step" id="step-4">
+          <div class="step-num">04</div>
+          <div class="step-content">
+            <h3>Escale com confiança</h3>
+            <p>Com dados claros e processos automatizados, tome decisões mais rápidas e acelere seu crescimento.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRICING -->
+  <section class="pricing-section" id="pricing">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">Preços</span>
+        <h2 class="section-title">Simples, transparente, <span class="gradient-text">sem surpresas</span></h2>
+        <p class="section-desc">Comece grátis. Faça upgrade quando precisar crescer mais.</p>
+      </div>
+      <div class="pricing-toggle">
+        <span class="toggle-label">Mensal</span>
+        <label class="toggle-switch">
+          <input type="checkbox" id="billingToggle" />
+          <span class="toggle-slider"></span>
+        </label>
+        <span class="toggle-label">Anual <span class="discount-badge">-20%</span></span>
+      </div>
+      <div class="pricing-grid">
+        <div class="pricing-card" id="plan-starter">
+          <div class="plan-name">Starter</div>
+          <div class="plan-price">
+            <span class="price-currency">R$</span>
+            <span class="price-amount" data-monthly="0" data-annual="0">0</span>
+            <span class="price-period">/mês</span>
+          </div>
+          <p class="plan-desc">Perfeito para começar e explorar a plataforma.</p>
+          <ul class="plan-features">
+            <li>✓ Até 3 dashboards</li>
+            <li>✓ 5.000 eventos/mês</li>
+            <li>✓ 2 usuários</li>
+            <li>✓ 10 integrações</li>
+            <li class="disabled">✗ IA avançada</li>
+            <li class="disabled">✗ Relatórios automáticos</li>
+          </ul>
+          <a href="#" class="btn-outline plan-btn">Começar grátis</a>
+        </div>
+        <div class="pricing-card featured" id="plan-pro">
+          <div class="plan-popular">Mais popular</div>
+          <div class="plan-name">Pro</div>
+          <div class="plan-price">
+            <span class="price-currency">R$</span>
+            <span class="price-amount" data-monthly="197" data-annual="157">197</span>
+            <span class="price-period">/mês</span>
+          </div>
+          <p class="plan-desc">Para times que querem crescer com inteligência.</p>
+          <ul class="plan-features">
+            <li>✓ Dashboards ilimitados</li>
+            <li>✓ 500k eventos/mês</li>
+            <li>✓ Até 15 usuários</li>
+            <li>✓ 200+ integrações</li>
+            <li>✓ IA avançada</li>
+            <li>✓ Relatórios automáticos</li>
+          </ul>
+          <a href="#" class="btn-primary plan-btn">Começar agora</a>
+        </div>
+        <div class="pricing-card" id="plan-enterprise">
+          <div class="plan-name">Enterprise</div>
+          <div class="plan-price">
+            <span class="price-currency"></span>
+            <span class="price-amount" style="font-size:2rem;">Custom</span>
+          </div>
+          <p class="plan-desc">Soluções sob medida para grandes operações.</p>
+          <ul class="plan-features">
+            <li>✓ Tudo do Pro</li>
+            <li>✓ Eventos ilimitados</li>
+            <li>✓ Usuários ilimitados</li>
+            <li>✓ SLA garantido</li>
+            <li>✓ Suporte dedicado</li>
+            <li>✓ Onboarding personalizado</li>
+          </ul>
+          <a href="#" class="btn-outline plan-btn">Falar com vendas</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="testimonials-section" id="testimonials">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">Depoimentos</span>
+        <h2 class="section-title">Quem usa, <span class="gradient-text">não para</span></h2>
+      </div>
+      <div class="testimonials-grid">
+        <div class="testi-card" id="testi-1">
+          <div class="testi-stars">★★★★★</div>
+          <p class="testi-text">"Scalor transformou completamente como enxergamos nossos dados. Em 3 meses triplicamos a taxa de conversão usando os insights de IA."</p>
+          <div class="testi-author">
+            <div class="testi-avatar" style="background: linear-gradient(135deg, #7c3aed, #3b82f6);">CM</div>
+            <div>
+              <div class="testi-name">Carlos Mendes</div>
+              <div class="testi-role">CEO, Nexus Digital</div>
+            </div>
+          </div>
+        </div>
+        <div class="testi-card" id="testi-2">
+          <div class="testi-stars">★★★★★</div>
+          <p class="testi-text">"A facilidade de integração é impressionante. Conectamos nosso Shopify, CRM e financeiro em menos de 1 hora. Nunca mais voltamos para planilhas."</p>
+          <div class="testi-author">
+            <div class="testi-avatar" style="background: linear-gradient(135deg, #06b6d4, #10b981);">AL</div>
+            <div>
+              <div class="testi-name">Ana Lima</div>
+              <div class="testi-role">Head de Operações, Orbita</div>
+            </div>
+          </div>
+        </div>
+        <div class="testi-card" id="testi-3">
+          <div class="testi-stars">★★★★★</div>
+          <p class="testi-text">"O suporte é excepcional e a plataforma evolui rápido. Toda semana tem algo novo que nos surpreende. ROI positivo já no primeiro mês."</p>
+          <div class="testi-author">
+            <div class="testi-avatar" style="background: linear-gradient(135deg, #f59e0b, #ec4899);">RS</div>
+            <div>
+              <div class="testi-name">Rafael Santos</div>
+              <div class="testi-role">CTO, Pinnacle Tech</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA FINAL -->
+  <section class="cta-section">
+    <div class="cta-bg">
+      <div class="orb orb-cta-1"></div>
+      <div class="orb orb-cta-2"></div>
+    </div>
+    <div class="container cta-content">
+      <h2 class="cta-title">Pronto para <span class="gradient-text">escalar?</span></h2>
+      <p class="cta-desc">Junte-se a mais de 12.000 empresas que já crescem com Scalor. Comece grátis, sem cartão de crédito.</p>
+      <div class="cta-actions">
+        <a href="#" class="btn-primary btn-lg" id="cta-bottom">Criar conta gratuita</a>
+        <a href="#" class="btn-ghost btn-lg">Falar com especialista</a>
+      </div>
+      <p class="cta-sub">✓ 14 dias grátis &nbsp;·&nbsp; ✓ Sem cartão &nbsp;·&nbsp; ✓ Cancele quando quiser</p>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a href="#" class="logo">
+          <span class="logo-icon">◈</span>
+          <span class="logo-text">Scalor</span>
+        </a>
+        <p class="footer-tagline">Escale com inteligência.</p>
+        <div class="footer-socials">
+          <a href="#" class="social-link" aria-label="LinkedIn">in</a>
+          <a href="#" class="social-link" aria-label="Twitter">𝕏</a>
+          <a href="#" class="social-link" aria-label="Instagram">◻</a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Produto</h4>
+        <a href="#">Recursos</a>
+        <a href="#">Preços</a>
+        <a href="#">Integrações</a>
+        <a href="#">Changelog</a>
+      </div>
+      <div class="footer-col">
+        <h4>Empresa</h4>
+        <a href="#">Sobre nós</a>
+        <a href="#">Blog</a>
+        <a href="#">Carreiras</a>
+        <a href="#">Contato</a>
+      </div>
+      <div class="footer-col">
+        <h4>Legal</h4>
+        <a href="#">Privacidade</a>
+        <a href="#">Termos de uso</a>
+        <a href="#">LGPD</a>
+        <a href="#">Cookies</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 Scalor. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
